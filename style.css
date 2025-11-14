@@ -88,10 +88,16 @@ h4{
   font-family: "Special Gothic Condensed One", sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
+
 p{
   color: var(--base-color);
   font-family: "Special Gothic Expanded One", sans-serif;
 }
+
+/* Sección general de los articles*/
 
 .article{
   display: grid;
@@ -100,10 +106,7 @@ p{
   align-items:first baseline;
   justify-content:baseline;
 }
-
-ul{
-    list-style-type: none;
-}
+/* Distintas section*/
 
 .fotoperfil{
   float: right;
@@ -130,7 +133,7 @@ ul{
   text-align: justify;
   font-weight: normal;
 }
-
+/* imagen transición*/
 #foto1{
   background-image: url(./img/estrella-de-la-muerte.jpg);
   background-size: cover;
@@ -139,7 +142,7 @@ ul{
   min-height: 50vh;
   margin: 0;
 }
-
+/* Tabla en logros*/
 table {
   width: 100%;
   border-collapse: collapse;
@@ -194,6 +197,8 @@ tbody tr:nth-child(even) {
 .w95 { width: 95%; }
 .w100 { width: 100%; }
 
+/* imagen final*/
+
 #final{
     background-image: url(./img/dhf2f78-96319ee5-bd3a-47a8-baa3-989dfeca998e.png);
     background-size: cover;
@@ -203,15 +208,7 @@ tbody tr:nth-child(even) {
     height: 300px;
     padding: 0%;
 }
-
-.footer {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  top: 20px;
-  width: 100%;
-}
-
+/* frase final*/
 .citacion{
   position: relative;
   color: var(--mark);
@@ -226,4 +223,12 @@ tbody tr:nth-child(even) {
   box-shadow: 0 0 30px #0000000d,0 0 60px #ffffff0d;
   line-height: 2;
   overflow: hidden;
+}
+/* footer*/
+.footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  top: 20px;
+  width: 100%;
 }
