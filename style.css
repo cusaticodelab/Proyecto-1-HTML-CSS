@@ -19,6 +19,8 @@ html {
   scroll-behavior: smooth;
 }
 
+/* incio de header*/
+
 header {
   display: flex;                  
   justify-content: space-between;  
@@ -38,6 +40,8 @@ a:hover{
     transition: 0,4s;
 }
 
+/* fin de header*/ 
+/* incio de body*/
 body{
     color: var(--base-color);
     font-family: "Special Gothic Expanded One", sans-serif;
@@ -99,6 +103,15 @@ p{
 
 ul{
     list-style-type: none;
+}
+
+.fotoperfil{
+  float: right;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  shape-outside: circle();
+  margin: 20px 20px 20px 20px;
 }
 
 #trayectoria > ul{
